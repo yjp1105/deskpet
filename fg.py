@@ -17,7 +17,7 @@ class DeskPet(QWidget):
         self.readme_path = os.path.join(self.base_dir, "readme.md")
         
         # api输入口
-        self.api_key = "sk-687424e1eaa04be49d7f33e3c6911aca"
+        self.api_key = "sk-"
         self.api_url = "https://api.deepseek.com/v1/chat/completions" 
         
         # --- 初始化状态 ---
